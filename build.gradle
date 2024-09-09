@@ -1,5 +1,9 @@
 // Top-level build file where you can add configuration options common to all sub-projects/modules.
-apply plugin: 'maven-publish'
+plugins {
+    id 'maven-publish'
+}
+
+// apply plugin: 'maven-publish'
 
 
 buildscript {
